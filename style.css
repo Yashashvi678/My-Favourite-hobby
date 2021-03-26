@@ -2,6 +2,7 @@ body{
     background: linear-gradient(#05ffda 100%)
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 .profile{
     width: 175px;
@@ -30,11 +31,12 @@ body{
     vertical-align: middle;
 }
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     line-height: 1.2;
     font-family: inherit;
     font-weight: 300;
     color:black;
+    text-align: center;
 }
 #name {
     font-size: 60px;
@@ -95,7 +97,41 @@ a {
 }
 .article:hover {
     color: fuchsia;
+ 
 }
 h3 {
    text-align: right; 
 }
+#quote {
+    border-style: ridge;
+  border-color: black;
+    border-width: thick;
+    color: #880E4F;
+    font-family: cursive;
+    font-size: 50;
+}
+html {
+    scroll-behavior: smooth;
+}
+.article {
+    text-align: left;
+    
+}
+#My Favourite app {
+    background: linear-gradient(#f003fc 0%,#fc0394 100%);
+}
+#work {
+    text-align: left; 
+    background: linear-gradient(#fcf803 0%,#fc9d03 100%);
+}
+#inspiration {
+    background: linear-gradient(#00b5fc 0%,#0303fc 100%);
+}
+#contact {
+    background: linear-gradient(#f003fc 0%,#fc0394 100%);
+}
+#email {
+    font-style: normal;
+    font-family: cursive;
+}
+
